@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TrenTekno - Upload</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/Main/assets/img/favicon.png" rel="icon">
+  <link href="Main/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/Main/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/Main/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/Main/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/Main/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/Main/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="/Main/assets/css/variables.css" rel="stylesheet">
+  <link href="/Main/assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 style="color: red;">TrenTekno</h1>
+      </a>
+
+      
+
+      <div class="position-relative">
+
+        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+
+        <!-- ======= Search Form ======= -->
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div><!-- End Search Form -->
+
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section id="upload" class="upload mb-5">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-12 text-center mb-3">
+            <h1 class="page-title">Upload</h1>
+          </div>
+        </div>
+
+        <div class="form mt-2">
+          <form action="..." method="post" role="form" class="php-upload-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text"  class="form-control" name="title" id="title" placeholder="Title" required>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="date" class="form-control" name="date" id="date" placeholder="Time" required>
+              </div>
+              <div class="form-group col-md-6">
+                <select class="form-control" name="categories" id="categories" placeholder="Categories">
+                    <option selected>Categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="file" class="form-control" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" rows="5"required></textarea>
+            </div>
+            </div>
+            
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="send-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Upload</button></div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">About TrenTekno</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab, perspiciatis beatae autem deleniti voluptate nulla a dolores, exercitationem eveniet libero laudantium recusandae officiis qui aliquid blanditiis omnis quae. Explicabo?</p>
+            <p><a href="about.html" class="footer-link-more">Learn More</a></p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>TrenTekno</span></strong>. All Rights Reserved
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/Main/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Main/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/Main/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/Main/assets/vendor/aos/aos.js"></script>
+  <script src="/Main/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/Main/assets/js/main.js"></script>
+
+</body>
+
+</html>
