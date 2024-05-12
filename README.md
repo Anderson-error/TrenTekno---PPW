@@ -1,3 +1,3 @@
 # Admin account
-- username : admin
-- password : 111
+- Username : admin
+- Password : 111
